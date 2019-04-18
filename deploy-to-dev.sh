@@ -1,1 +1,1 @@
-sudo bash ./scripts/deploy.sh -cn "dev-cluster-01" -pn "pyDataHubImp-0.1-py3.7.egg" --profile cevora-datahub-dev
+sudo bash ./scripts/deploy.sh -cn "dev-cluster-01" -pn "pyDataHubImp-0.1-py3.7.egg" --profile BrainDate

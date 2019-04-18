@@ -1,10 +1,9 @@
 from pyDataHub import DataVault
-from pyDataHubImp.entities.hubs import ODS_Supplier_H, Salesforce_Account_H, Organization_OH, Pipeline_MH
-from pyDataHubImp.entities.satellites import Organization_BS
-from pyDataHubImp.entities.links import Organization_ODSSupplier_OL, Organization_Salesforce_OL, Organization_SameAsLinks_OL
+from pyDataHubImp.entities.hubs import ODS_Supplier_H
+from pyDataHubImp.entities.links import Organization_ODSSupplier_OL
 
 
-class CevoraDataVault(DataVault):
+class BrainDateDataVault(DataVault):
 
     def __init__(self, path, dbutils, name, initWithCreation):
         super().__init__(path, dbutils, name, initWithCreation)
