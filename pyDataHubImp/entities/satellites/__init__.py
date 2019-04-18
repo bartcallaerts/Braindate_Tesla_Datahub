@@ -1,0 +1,1 @@
+from .ODS_Supplier_Details_S import ODS_Supplier_Details_S
